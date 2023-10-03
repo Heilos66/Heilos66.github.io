@@ -98,8 +98,10 @@ window.addEventListener('load', () => {
     showReset: false,
     showSubmit: false,
     searchOnEnterKeyPressOnly: true,
+    // placeholder: GLOBAL_CONFIG.algolia.languages.input_placeholder
+    // showLoadingIndicator: false
+    showLoadingIndicator: false,
     placeholder: "输入关键词后，按下回车键即可搜索文章..."
-    showLoadingIndicator: true
   })
 
   const hits = instantsearch.widgets.hits({
