@@ -98,7 +98,7 @@ window.addEventListener('load', () => {
     showReset: false,
     showSubmit: false,
     searchOnEnterKeyPressOnly: true,
-    placeholder: "输入关键词后，按下回车键即可搜索文章..."
+    placeholder: "输入关键词后，按下回车键即可搜索文章...",
     showLoadingIndicator: true
   })
 
