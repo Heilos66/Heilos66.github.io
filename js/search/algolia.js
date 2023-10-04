@@ -100,7 +100,7 @@ window.addEventListener('load', () => {
     searchOnEnterKeyPressOnly: true,
     // placeholder: GLOBAL_CONFIG.algolia.languages.input_placeholder
     // showLoadingIndicator: false
-    showLoadingIndicator: false,
+    showLoadingIndicator: true,
     placeholder: "输入关键词后，按下回车键即可搜索文章..."
   })
 
