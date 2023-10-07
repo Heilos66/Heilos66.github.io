@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Linux基础命令</title>
+      <link href="/posts/60189/"/>
+      <url>/posts/60189/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux基础命令"><a href="#Linux基础命令" class="headerlink" title="Linux基础命令"></a>Linux基础命令</h1><h2 id="系统信息"><a href="#系统信息" class="headerlink" title="系统信息"></a>系统信息</h2><p>uname -s：显示当前系统的发行版号</p><p>unmae -a：显示系统名、节点名称、操作系统的发行版号、内核版本等等</p><p>hostname：显示当前主机名</p><h2 id="关机-重启"><a href="#关机-重启" class="headerlink" title="关机&#x2F;重启"></a>关机&#x2F;重启</h2><p>shutdown：关机</p><p>reboot：重启</p><h2 id="文件-目录"><a href="#文件-目录" class="headerlink" title="文件&#x2F;目录"></a>文件&#x2F;目录</h2><p>ls：列出文件夹信息</p><p>ll：是ls -l的别名，列出当前目录文件或目录的详细信息，包含时间、权限、大小等信息</p><p>pwd：展示当前目录</p><p>cd：切换工作目录</p><p>mkdir：创建文件夹</p><p>touch：创建文件</p><p>cat：查看文件内容</p><p>more：查看文件，可以支持翻页查看，空格键翻页，q退出查看</p><h2 id="用户-权限"><a href="#用户-权限" class="headerlink" title="用户&#x2F;权限"></a>用户&#x2F;权限</h2><p>useradd：创建用户</p><p>userdel：删除用户</p><p>id：查看用户所属组</p><p>usermod -aG：修改用户所属组</p><p>groupadd：创建用户组</p><p>groupdel：删除用户组</p><h2 id="实用命令"><a href="#实用命令" class="headerlink" title="实用命令"></a>实用命令</h2><p>systemctl：控制系统服务的启动、关闭等</p><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><p>ctrl + c：强制停止</p><p>ctrl + d：退出或登出账户</p><p>ctrl + l：清屏</p><p>ctrl + r：输入命令去匹配历史命令</p><p>ctrl + a：跳到命令开头</p><p>ctrl + e：跳到命令结尾</p><p>ctrl + 左方向键：想左跳一个单词</p><p>ctrl + 右方向键：想右跳一个单词</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/posts/16107/"/>
       <url>/posts/16107/</url>
